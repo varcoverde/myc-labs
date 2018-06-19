@@ -1,0 +1,1744 @@
+.animate {
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  .animateForm {
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    transition: all 0.7s ease-in-out 0s;
+  }
+  .animateInput {
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;
+  }
+  .invisi {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .visi {
+    visibility: visible;
+    opacity: 1;
+  }
+  .bBox {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .button {
+    color: #000000;
+    background: none;
+    border: 2px solid #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 22px;
+    -webkit-border-radius: 200px;
+            border-radius: 200px;
+  }
+  .button-medium {
+    color: #000000;
+    background: none;
+    border: 2px solid #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 26px;
+    -webkit-border-radius: 200px;
+            border-radius: 200px;
+    text-transform: uppercase;
+  }
+  .button-big {
+    color: #000000;
+    background: none;
+    border: 2px solid #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 18px 26px;
+    -webkit-border-radius: 200px;
+            border-radius: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .abra-sua-conta {
+    text-align: center;
+    margin: 110px 0 110px;
+    position: relative;
+  }
+  .abra-sua-conta:after {
+    content: '';
+    width: 100%;
+    border-top: 1px solid #073e35;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+  }
+  .abra-sua-conta h3 {
+    color: #005952;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: -84px 0 0 0;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .abra-sua-conta h3 span {
+    display: block;
+  }
+  .button-conta {
+    color: #ffffff;
+    background: #073e35;
+    border: 2px solid #073e35;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 14px 30px;
+    -webkit-border-radius: 200px;
+            border-radius: 200px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+  }
+  .button-conta:hover {
+    color: #f6f7f5;
+    background: #7bc142;
+    border: 2px solid #7bc142;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 14px 30px;
+    -webkit-border-radius: 200px;
+            border-radius: 200px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 900;
+  }
+  @media all and (max-width: 870px) {
+    .button-conta {
+      font-size: 22px;
+      line-height: 26px;
+      margin-top: 11px;
+      margin-bottom: 11px;
+    }
+    .abra-sua-conta h3 {
+      display: none;
+    }
+  }
+  .clear:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .inner {
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+  }
+  .row {
+    margin: 0 -15px;
+  }
+  .row:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .row-col-2-4 {
+    margin: 0 -5px;
+  }
+  .row-col-2-4:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .col-1 {
+    width: 8.33333333%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-2 {
+    width: 16.66666667%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-3 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-4 {
+    width: 33.33333333%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-5 {
+    width: 41.66666667%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-7 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-8 {
+    width: 66.66666667%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-9 {
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-10 {
+    width: 83.33333333%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-11 {
+    width: 91.66666667%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-12 {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+  }
+  .col-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-offset-3 {
+    margin-left: 25%;
+  }
+  .col-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-offset-6 {
+    margin-left: 50%;
+  }
+  .col-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-offset-9 {
+    margin-left: 75%;
+  }
+  .col-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-offset-12 {
+    margin-left: 100%;
+  }
+  .col-2-4 {
+    width: 20%;
+    float: left;
+    padding: 0 5px;
+  }
+  @media all and (max-width: 1040px) {
+    .inner {
+      width: 100%;
+      padding: 0 5%;
+    }
+    .col-1 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-1:last-child {
+      margin-bottom: 0;
+    }
+    .col-2 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-2:last-child {
+      margin-bottom: 0;
+    }
+    .col-3 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-3:last-child {
+      margin-bottom: 0;
+    }
+    .col-4 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-4:last-child {
+      margin-bottom: 0;
+    }
+    .col-5 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-5:last-child {
+      margin-bottom: 0;
+    }
+    .col-6 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-6:last-child {
+      margin-bottom: 0;
+    }
+    .col-7 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-7:last-child {
+      margin-bottom: 0;
+    }
+    .col-8 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-8:last-child {
+      margin-bottom: 0;
+    }
+    .col-9 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-9:last-child {
+      margin-bottom: 0;
+    }
+    .col-10 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-10:last-child {
+      margin-bottom: 0;
+    }
+    .col-11 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-11:last-child {
+      margin-bottom: 0;
+    }
+    .col-12 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .col-12:last-child {
+      margin-bottom: 0;
+    }
+    .col-4 {
+      width: 33.33%;
+    }
+    #pagina-abra-sua-conta .col-1 {
+      width: 8.33333333%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-2 {
+      width: 16.66666667%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-3 {
+      width: 25%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-4 {
+      width: 33.33333333%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-5 {
+      width: 41.66666667%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-6 {
+      width: 50%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-7 {
+      width: 58.33333333%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-8 {
+      width: 66.66666667%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-9 {
+      width: 75%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-10 {
+      width: 83.33333333%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-11 {
+      width: 91.66666667%;
+      float: left;
+      padding: 0 15px;
+    }
+    #pagina-abra-sua-conta .col-12 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+    }
+  }
+  @media all and (max-width: 870px) {
+    .col-4 {
+      width: 100%;
+    }
+    #pagina-abra-sua-conta .col-1 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-1:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-2 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-2:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-3 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-3:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-4 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-4:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-5 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-5:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-6 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-6:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-7 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-7:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-8 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-8:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-9 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-9:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-10 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-10:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-11 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-11:last-child {
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-12 {
+      width: 100%;
+      float: left;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 0;
+    }
+    #pagina-abra-sua-conta .col-12:last-child {
+      margin-bottom: 0;
+    }
+  }
+  /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+  /**
+  * 1. Set default font family to sans-serif.
+  * 2. Prevent iOS text size adjust after orientation change, without disabling
+  *    user zoom.
+  */
+  html {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+  }
+  /**
+  * Remove default margin.
+  */
+  body {
+    margin: 0;
+  }
+  /* HTML5 display definitions
+  ========================================================================== */
+  /**
+  * Correct `block` display not defined for any HTML5 element in IE 8/9.
+  * Correct `block` display not defined for `details` or `summary` in IE 10/11
+  * and Firefox.
+  * Correct `block` display not defined for `main` in IE 11.
+  */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  /**
+  * 1. Correct `inline-block` display not defined in IE 8/9.
+  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+  */
+  audio,
+  canvas,
+  progress,
+  video {
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */
+  }
+  /**
+  * Prevent modern browsers from displaying `audio` without controls.
+  * Remove excess height in iOS 5 devices.
+  */
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  /**
+  * Address `[hidden]` styling not present in IE 8/9/10.
+  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+  */
+  [hidden],
+  template {
+    display: none;
+  }
+  /* Links
+  ========================================================================== */
+  /**
+  * Remove the gray background color from active links in IE 10.
+  */
+  a {
+    background-color: transparent;
+  }
+  /**
+  * Improve readability when focused and also mouse hovered in all browsers.
+  */
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  /* Text-level semantics
+  ========================================================================== */
+  /**
+  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+  */
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  /**
+  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+  */
+  b,
+  strong {
+    font-weight: bold;
+  }
+  /**
+  * Address styling not present in Safari and Chrome.
+  */
+  dfn {
+    font-style: italic;
+  }
+  /**
+  * Address variable `h1` font-size and margin within `section` and `article`
+  * contexts in Firefox 4+, Safari, and Chrome.
+  */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  /**
+  * Address styling not present in IE 8/9.
+  */
+  mark {
+    background: #ff0;
+    color: #000;
+  }
+  /**
+  * Address inconsistent and variable font size in all browsers.
+  */
+  small {
+    font-size: 80%;
+  }
+  /**
+  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+  */
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  /* Embedded content
+  ========================================================================== */
+  /**
+  * Remove border when inside `a` element in IE 8/9/10.
+  */
+  img {
+    border: 0;
+  }
+  /**
+  * Correct overflow not hidden in IE 9/10/11.
+  */
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  /* Grouping content
+  ========================================================================== */
+  /**
+  * Address margin not present in IE 8/9 and Safari.
+  */
+  figure {
+    margin: 1em 40px;
+  }
+  /**
+  * Address differences between Firefox and other browsers.
+  */
+  hr {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    height: 0;
+  }
+  /**
+  * Contain overflow in all browsers.
+  */
+  pre {
+    overflow: auto;
+  }
+  /**
+  * Address odd `em`-unit font size rendering in all browsers.
+  */
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  /* Forms
+  ========================================================================== */
+  /**
+  * Known limitation: by default, Chrome and Safari on OS X allow very limited
+  * styling of `select`, unless a `border` property is set.
+  */
+  /**
+  * 1. Correct color not being inherited.
+  *    Known issue: affects color of disabled elements.
+  * 2. Correct font properties not being inherited.
+  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+  */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    color: inherit;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+    margin: 0;
+    /* 3 */
+  }
+  /**
+  * Address `overflow` set to `hidden` in IE 8/9/10/11.
+  */
+  button {
+    overflow: visible;
+  }
+  /**
+  * Address inconsistent `text-transform` inheritance for `button` and `select`.
+  * All other form control elements do not inherit `text-transform` values.
+  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+  * Correct `select` style inheritance in Firefox.
+  */
+  button,
+  select {
+    text-transform: none;
+  }
+  /**
+  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+  *    and `video` controls.
+  * 2. Correct inability to style clickable `input` types in iOS.
+  * 3. Improve usability and consistency of cursor style between image-type
+  *    `input` and others.
+  */
+  button,
+  html input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+  }
+  /**
+  * Re-set default cursor for disabled elements.
+  */
+  button[disabled],
+  html input[disabled] {
+    cursor: default;
+  }
+  /**
+  * Remove inner padding and border in Firefox 4+.
+  */
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  /**
+  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+  * the UA stylesheet.
+  */
+  input {
+    line-height: normal;
+  }
+  /**
+  * It's recommended that you don't attempt to style these elements.
+  * Firefox's implementation doesn't respect box-sizing, padding, or width.
+  *
+  * 1. Address box sizing set to `content-box` in IE 8/9/10.
+  * 2. Remove excess padding in IE 8/9/10.
+  */
+  input[type="checkbox"],
+  input[type="radio"] {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+  }
+  /**
+  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+  * `font-size` values of the `input`, it causes the cursor style of the
+  * decrement button to change from `default` to `text`.
+  */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  /**
+  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+  *    (include `-moz` to future-proof).
+  */
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    -webkit-box-sizing: content-box;
+    /* 2 */
+    box-sizing: content-box;
+  }
+  /**
+  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+  * Safari (but not Chrome) clips the cancel button when the search input has
+  * padding (and `textfield` appearance).
+  */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  /**
+  * Define consistent border, margin, and padding.
+  */
+  fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
+  /**
+  * 1. Correct `color` not being inherited in IE 8/9/10/11.
+  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+  */
+  legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+  }
+  /**
+  * Remove default vertical scrollbar in IE 8/9/10/11.
+  */
+  textarea {
+    overflow: auto;
+  }
+  /**
+  * Don't inherit the `font-weight` (applied by a rule above).
+  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+  */
+  optgroup {
+    font-weight: bold;
+  }
+  /* Tables
+  ========================================================================== */
+  /**
+  * Remove most spacing between table cells.
+  */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  td,
+  th {
+    padding: 0;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300.svg#MuseoSans-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-300Italic.svg#MuseoSans-300Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-500Italic.svg#MuseoSans-500Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700.svg#MuseoSans-700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-700Italic.svg#MuseoSans-700Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900.svg#MuseoSans-900') format('svg');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Museo Sans';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MuseoSans-900Italic.svg#MuseoSans-900Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'MyCAP Iconfont';
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.eot');
+    src: url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.eot?#iefix') format('embedded-opentype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.woff2') format('woff2'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.woff') format('woff'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.ttf') format('truetype'), url('https://www.mycap.com.br/App_Themes/MyCap/Fonts/MyCAP-WebFont.svg#MyCAP-WebFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .iconfont {
+    font-family: 'MyCAP Iconfont';
+    -webkit-font-feature-settings: normal;
+            font-feature-settings: normal;
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+    -webkit-font-language-override: normal;
+            font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-mycap:before {
+    content: "\E074";
+  }
+  .icon-twitter:before {
+    content: "\E001";
+  }
+  .icon-facebook:before {
+    content: "\E002";
+  }
+  .icon-youtube:before {
+    content: "\E003";
+  }
+  .icon-icap:before {
+    content: "\E004";
+  }
+  .icon-beneficio:before {
+    content: "\E005";
+  }
+  .icon-analise:before {
+    content: "\E006";
+  }
+  .icon-acoes:before {
+    content: "\E007";
+  }
+  .icon-powerbroker:before {
+    content: "\E008";
+  }
+  .icon-opcoes:before {
+    content: "\E024";
+  }
+  .icon-bmef:before {
+    content: "\E025";
+  }
+  .icon-tesourodireto:before {
+    content: "\E026";
+  }
+  .icon-fundosindice:before {
+    content: "\E046";
+  }
+  .icon-fundosimobiliarios:before {
+    content: "\E047";
+  }
+  .icon-aluguelacoes:before {
+    content: "\E027";
+  }
+  .icon-ofertaspublicas:before {
+    content: "\E048";
+  }
+  .icon-termo:before {
+    content: "\E049";
+  }
+  .icon-bdr:before {
+    content: "\E029";
+  }
+  .icon-cifrao:before {
+    content: "\E009";
+  }
+  .icon-alavancagem:before {
+    content: "\E030";
+  }
+  .icon-vendadescoberto:before {
+    content: "\E031";
+  }
+  .icon-contamargem:before {
+    content: "\E032";
+  }
+  .icon-mesaoperacoes:before {
+    content: "\E033";
+  }
+  .icon-ferramentas:before {
+    content: "\E010";
+  }
+  .icon-scannergrafico:before {
+    content: "\E017";
+  }
+  .icon-forum:before {
+    content: "\E018";
+  }
+  .icon-relatoriosanalistas:before {
+    content: "\E019";
+  }
+  .icon-beliscadas:before {
+    content: "\E040";
+  }
+  .icon-flexscan:before {
+    content: "\E034";
+  }
+  .icon-recomendacoes:before {
+    content: "\E039";
+  }
+  .icon-consensomercado:before {
+    content: "\E038";
+  }
+  .icon-graficos:before {
+    content: "\E050";
+  }
+  .icon-radarvolumes:before {
+    content: "\E035";
+  }
+  .icon-quadroalugueis:before {
+    content: "\E037";
+  }
+  .icon-podcasts:before {
+    content: "\E036";
+  }
+  .icon-irfacil:before {
+    content: "\E052";
+  }
+  .icon-proventos:before {
+    content: "\E045";
+  }
+  .icon-smsconfirmation:before {
+    content: "\E051";
+  }
+  .icon-hisroticocotacoes:before {
+    content: "\E043";
+  }
+  .icon-cotacoes:before {
+    content: "\E042";
+  }
+  .icon-noticias:before {
+    content: "\E041";
+  }
+  .icon-agendamercado:before {
+    content: "\E028";
+  }
+  .icon-cronogramaresultados:before {
+    content: "\E044";
+  }
+  .icon-multiplus:before {
+    content: "\E053";
+  }
+  .icon-tic:before {
+    content: "\E012";
+  }
+  .icon-x:before {
+    content: "\E013";
+  }
+  .icon-economicaplus:before {
+    content: "\E014";
+  }
+  .icon-lupa:before {
+    content: "\E015";
+  }
+  .icon-perfil:before {
+    content: "\E011";
+  }
+  .icon-transferencias:before {
+    content: "\E016";
+  }
+  .icon-downloads:before {
+    content: "\E023";
+  }
+  .icon-email:before {
+    content: "\E020";
+  }
+  .icon-chat:before {
+    content: "\E021";
+  }
+  .icon-telefone:before {
+    content: "\E022";
+  }
+  .icon-setadir:before {
+    content: "\E064";
+  }
+  .icon-alert:before {
+    content: "\E060";
+  }
+  .icon-investimentos:before {
+    content: "\E065";
+  }
+  .icon-ferramentas-small:before {
+    content: "\E059";
+  }
+  .icon-carteira-small:before {
+    content: "\E055";
+  }
+  .icon-financeiro-small:before {
+    content: "\E056";
+  }
+  .icon-ir-small:before {
+    content: "\E058";
+  }
+  .icon-proventos-small:before {
+    content: "\E057";
+  }
+  .icon-transferencias-small:before {
+    content: "\E070";
+  }
+  .icon-extrato:before {
+    content: "\E066";
+  }
+  .icon-notascorretagem:before {
+    content: "\E067";
+  }
+  .icon-informerendimentos:before {
+    content: "\E068";
+  }
+  .icon-avisosfatos:before {
+    content: "\E069";
+  }
+  .icon-info-endereco:before {
+    content: "\E072";
+  }
+  .icon-info-bancaria:before {
+    content: "\E073";
+  }
+  .icon-loading:before {
+    content: "\E084";
+  }
+  .icon-monitor:before {
+    content: "\E076";
+  }
+  .icon-alerttic:before {
+    content: "\E082";
+  }
+  .icon-mypedia:before {
+    content: "\E077";
+  }
+  .icon-fechamento:before {
+    content: "\E090";
+  }
+  .icon-instagram:before {
+    content: "\E093";
+  }
+  .smooth {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .regular {
+    font-weight: 300;
+  }
+  .medium {
+    font-weight: 500;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .xbold {
+    font-weight: 900;
+  }
+  .normal {
+    font-style: normal;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .center {
+    text-align: center;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  .upper {
+    text-transform: uppercase;
+  }
+  .lower {
+    text-transform: none;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-weight: 300;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #7bc142;
+  }
+  strong.plus {
+    font-size: 135%;
+    position: relative;
+    top: -1px;
+  }
+  @media all and (max-width: 870px) {
+    h1 {
+      font-size: 34px;
+      line-height: 34px;
+      margin-top: 17px;
+      margin-bottom: 17px;
+    }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-resolution: 120dpi) {
+    #main-header .logo a {
+      background-image: url(https://www.mycap.com.br/App_Themes/MyCap/Images/mycapx2.png);
+      background-size: 211px 48px;
+    }
+    #main-footer .icap a {
+      background-image: url(https://www.mycap.com.br/App_Themes/MyCap/Images/icapx2.png);
+      background-size: 118px 35px;
+    }
+    .joker .screenshot {
+      background-image: url(https://www.mycap.com.br/App_Themes/MyCap/Images/testdrive-hbx2.png);
+      background-size: 566px 305px;
+    }
+  }
+  body {
+    background: #f6f7f5;
+    color: #353b3a;
+    font-family: 'Museo Sans', 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+  a,
+  input,
+  textarea {
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  input,
+  textarea {
+    outline: none;
+  }
+  button,
+  button:hover,
+  button:focus {
+    outline: none;
+  }
+  .alert {
+    width: 100%;
+    background: rgba(110, 128, 127, 0.5);
+    padding: 15px;
+    position: relative;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+  }
+  .alert .icon-alert {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  .alert .texto {
+    padding-left: 80px;
+  }
+  .alert .texto p {
+    line-height: 18px;
+    font-weight: 500;
+  }
+  .alert .texto p:last-child {
+    margin-bottom: 0;
+  }
+  .alert.warning {
+    background: #f7c14d;
+  }
+  .alert.danger {
+    background: #f46c55;
+    color: #ffffff;
+  }
+  .special,
+  .main-special {
+    text-align: center;
+    margin-top: -100px;
+    padding-top: 100px;
+  }
+  .main-special {
+    background-image: -webkit-radial-gradient(circle farthest-side at right bottom, #7bc142, #0e674e, #034036);
+    background-image: radial-gradient(circle farthest-side at right bottom, #7bc142, #0e674e, #034036);
+    min-height: 600px;
+  }
+  .main-special h1 {
+    margin: 0;
+  }
+  .main-special .special-text {
+    width: 570px;
+    margin: 90px auto 0;
+  }
+  .main-special .special-text h1 {
+    color: #ffffff;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+    font-weight: 500;
+  }
+  .main-special .special-text a {
+    margin-top: 10px;
+    color: #ffffff;
+    border-color: #7bc142;
+    background: #7bc142;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  }
+  .main-special .special-text a:hover {
+    color: #7bc142;
+    border-color: #ffffff;
+    background: #ffffff;
+    text-shadow: none;
+  }
+  .special header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 45px 0 0 0;
+    padding-bottom: 45px;
+    position: relative;
+    z-index: 5;
+  }
+  .special header h1 {
+    width: 715px;
+    color: #ffffff;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+  .special .special-text header {
+    border: none;
+    padding: 0;
+  }
+  .special .special-text header h1 {
+    font-size: 40px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    font-weight: 900;
+    position: relative;
+    z-index: 5;
+  }
+  .special .special-text header p {
+    font-size: 22px;
+    line-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    position: relative;
+    z-index: 5;
+  }
+  .bloco {
+    padding: 60px 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .bloco header {
+    width: 660px;
+    text-align: center;
+    margin: 0px auto 60px;
+  }
+  .bloco header h1 {
+    margin: 0px;
+    color: #005952;
+  }
+  .bloco header p {
+    color: #6e807f;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .bloco .smallies {
+    color: #005952;
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+  .smallies p {
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  @media all and (max-width: 1040px) {
+    .mobile-remove {
+      display: none;
+    }
+    .bloco header {
+      width: 100%;
+      padding: 0 7.5%;
+    }
+    .mobile-fixer {
+      overflow-x: hidden;
+    }
+  }
+  @media all and (max-width: 1040px) {
+    .special header {
+      width: 100%;
+    }
+    .special header h1 {
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 940px) {
+    .main-special .special-text {
+      width: 100%;
+      margin-top: 50px;
+      padding: 5%;
+    }
+  }
+  @media all and (max-width: 870px) {
+    .main-special {
+      min-height: 480px;
+    }
+    .main-special .special-text {
+      margin-top: 0;
+    }
+    .main-special .special-text h1 {
+      font-size: 26px;
+      line-height: 35px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+    }
+    .main-special .special-text a {
+      font-size: 21px;
+      line-height: 25px;
+      margin-top: 10.5px;
+      margin-bottom: 10.5px;
+      padding: 18px 18px;
+    }
+    .special header {
+      margin-top: 25px;
+      padding-bottom: 10px;
+    }
+    .special header h1 {
+      font-size: 26px;
+      line-height: 32px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+    }
+    .special .special-text header h1 {
+      line-height: 33px;
+    }
+    .special .special-text header {
+      margin-top: 45px;
+    }
+    .special .special-text header p {
+      font-size: 20px;
+      line-height: 22px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .bloco header {
+      padding: 0;
+    }
+    .bloco header p {
+      display: none;
+    }
+    .bloco .smallies {
+      margin-top: 70px;
+    }
+  }
+  .alertaHigh {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+  }
+  .alertaHigh .overlay {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(180, 237, 225, 0.85)), to(rgba(134, 185, 196, 0.85))) no-repeat fixed;
+    background: -webkit-linear-gradient(bottom, rgba(180, 237, 225, 0.85), rgba(134, 185, 196, 0.85)) no-repeat fixed;
+    background: linear-gradient(to top, rgba(180, 237, 225, 0.85), rgba(134, 185, 196, 0.85)) no-repeat fixed;
+  }
+  .alertaHigh .content {
+    width: 500px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 7px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+  }
+  .alertaHigh h3 {
+    color: #005952;
+    margin-bottom: 0;
+  }
+  .alertaHigh p {
+    color: #4e5c5c;
+    margin: 0;
+    font-weight: 500;
+  }
+  .alertaHigh button {
+    height: 40px;
+    border: none;
+    -webkit-border-radius: 100px;
+            border-radius: 100px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 5px 0;
+    padding: 0 25px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  .alertaHigh button.rec-dados {
+    background: #999999;
+  }
+  .alertaHigh button.rec-dados:hover {
+    background: #808080;
+  }
+  .alertaHigh button.faz-login {
+    background: #52958a;
+  }
+  .alertaHigh button.faz-login:hover {
+    background: #294d55;
+  }
+  .alertaHigh .close {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+  .alertaHigh .close .iconfont {
+    color: #b3b3b3;
+    font-size: 10px;
+    line-height: 10px;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  .alertaHigh .close .iconfont:hover {
+    color: #002623;
+  }
+  @media all and (max-width: 550px) {
+    .alertaHigh .content {
+      width: 90%;
+    }
+  }
+  
+  
+  .main-menu a {
+    transition: none;
+  }
